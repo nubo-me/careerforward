@@ -451,13 +451,6 @@ export default function Home() {
                 30代〜40代でも未経験業界への転職は可能です。重要なのは、これまでの経験で身につけたスキルを新しい業界でどう活かせるかを明確にすることです。業界研究と適切なアピール方法を専門家がサポートします。
               </p>
             </div>
-
-            <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-              <h3 className="font-bold text-lg text-gray-900 mb-2">相談だけでも利用できますか？</h3>
-              <p className="text-gray-600">
-                はい、転職するかどうか迷っている段階でも遠慮なくご相談ください。現在のキャリア状況の整理や市場価値の診断など、今後のキャリアを考える上で有益な情報をご提供いたします。
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -486,34 +479,6 @@ export default function Home() {
               30代〜40代ホワイトカラーの転職を専門的にサポートする情報サイトです。
             </p>
             <div className="flex justify-center space-x-6 mb-8">
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-twitter-x-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">Twitter</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-linkedin-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">LinkedIn</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-facebook-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">Facebook</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-instagram-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">Instagram</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-youtube-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">YouTube</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-mail-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">Newsletter</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-rss-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">RSS</span>
-              </a>
             </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-gray-400">

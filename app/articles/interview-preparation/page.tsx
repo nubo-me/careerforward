@@ -17,9 +17,6 @@ export default function InterviewPreparationPage() {
               <Link href="/#knowhow" className="text-gray-700 hover:text-[#005BAC] font-medium">転職ノウハウ</Link>
               <Link href="/#faq" className="text-gray-700 hover:text-[#005BAC] font-medium">FAQ</Link>
             </nav>
-            <Link href="/contact" className="bg-[#FFB703] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#e5a503] transition-colors whitespace-nowrap cursor-pointer">
-              無料相談予約
-            </Link>
           </div>
         </div>
       </header>
@@ -401,34 +398,6 @@ export default function InterviewPreparationPage() {
               30代〜40代ホワイトカラーの転職を専門的にサポートする情報サイトです。
             </p>
             <div className="flex justify-center space-x-6 mb-8">
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-twitter-x-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">Twitter</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-linkedin-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">LinkedIn</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-facebook-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">Facebook</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-instagram-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">Instagram</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-youtube-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">YouTube</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-mail-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">Newsletter</span>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-[#FFB703] transition-colors group">
-                <i className="ri-rss-line text-2xl"></i>
-                <span className="block text-xs mt-1 opacity-75 group-hover:opacity-100">RSS</span>
-              </a>
             </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
