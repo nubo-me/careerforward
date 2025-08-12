@@ -10,7 +10,7 @@ export default function InterviewPreparationPage() {
       <header className="w-full bg-white shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <Link href="/" className="font-[\'Pacifico\'] text-2xl text-[#005BAC]">CareerForward</Link>
+            <Link href="/" className="font-['Pacifico'] text-2xl text-[#005BAC]">CareerForward</Link>
             <nav className="hidden md:flex space-x-8">
               <Link href="/#services" className="text-gray-700 hover:text-[#005BAC] font-medium">サービス</Link>
               <Link href="/#success-stories" className="text-gray-700 hover:text-[#005BAC] font-medium">成功事例</Link>
@@ -396,7 +396,7 @@ export default function InterviewPreparationPage() {
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="font-[\'Pacifico\'] text-2xl text-[#FFB703] mb-4">CareerForward</div>
+            <div className="font-['Pacifico'] text-2xl text-[#FFB703] mb-4">CareerForward</div>
             <p className="text-gray-300 mb-4">
               30代〜40代ホワイトカラーの転職を専門的にサポートする情報サイトです。
             </p>
