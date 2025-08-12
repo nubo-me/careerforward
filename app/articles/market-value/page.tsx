@@ -2,10 +2,16 @@
 'use client';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function MarketValuePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Head>
+        <title>市場価値の正しい測り方 | CareerForward</title>
+        <meta name="description" content="転職市場における自身の価値を正確に把握する方法を解説。30代〜40代ホワイトカラーのキャリア戦略をサポート。" />
+      </Head>
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="w-full bg-white shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -504,6 +510,7 @@ export default function MarketValuePage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

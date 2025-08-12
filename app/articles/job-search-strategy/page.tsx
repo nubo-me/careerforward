@@ -2,10 +2,16 @@
 'use client';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function JobSearchStrategyPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Head>
+        <title>転職活動の戦略立案 | CareerForward</title>
+        <meta name="description" content="効果的な転職活動の戦略立案方法と実践的なアプローチを解説。30代〜40代ホワイトカラーの転職成功をサポート。" />
+      </Head>
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="w-full bg-white shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -585,6 +591,7 @@ export default function JobSearchStrategyPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

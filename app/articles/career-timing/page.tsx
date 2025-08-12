@@ -2,10 +2,16 @@
 'use client';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function CareerTimingPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Head>
+        <title>転職のベストタイミング | CareerForward</title>
+        <meta name="description" content="転職に最適なタイミングの見極め方と市場動向を解説。30代〜40代ホワイトカラーの転職戦略をサポート。" />
+      </Head>
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="w-full bg-white shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -514,6 +520,7 @@ export default function CareerTimingPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

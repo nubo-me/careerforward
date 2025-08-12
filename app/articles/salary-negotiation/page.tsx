@@ -2,10 +2,16 @@
 'use client';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function SalaryNegotiationPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Head>
+        <title>給与交渉の戦略とテクニック | CareerForward</title>
+        <meta name="description" content="転職時の給与交渉を成功させる戦略とテクニックを解説。30代〜40代ホワイトカラーの年収アップをサポート。" />
+      </Head>
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="w-full bg-white shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -516,6 +522,7 @@ export default function SalaryNegotiationPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

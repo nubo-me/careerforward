@@ -2,10 +2,16 @@
 'use client';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function InterviewPreparationPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Head>
+        <title>面接対策と成功のコツ | CareerForward</title>
+        <meta name="description" content="転職面接を成功に導く準備方法と実践的なコツを解説。30代〜40代ホワイトカラー向けの面接対策をご紹介。" />
+      </Head>
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="w-full bg-white shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -405,6 +411,7 @@ export default function InterviewPreparationPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

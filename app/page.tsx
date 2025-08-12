@@ -193,7 +193,7 @@ export default function Home() {
                 <tr>
                   <th className="px-6 py-4 text-left font-semibold">エージェント名</th>
                   <th className="px-6 py-4 text-center font-semibold">求人数</th>
-                  <th className="px-6 py-4 text-center font-semibold">年収UP実績</th>
+                  <th className="px-6 py-4 text-center font-semibold">年収アップ実績</th>
                   <th className="px-6 py-4 text-center font-semibold">サポート範囲</th>
                   <th className="px-6 py-4 text-center font-semibold">おすすめ度</th>
                 </tr>
@@ -201,8 +201,8 @@ export default function Home() {
               <tbody className="divide-y divide-gray-100">
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold text-gray-900">リクルートエージェント</td>
-                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">320,000件+</td>
-                  <td className="px-6 py-4 text-center">平均62.7%UP</td>
+                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">320,000件+※</td>
+                  <td className="px-6 py-4 text-center">平均62.7%アップ※</td>
                   <td className="px-6 py-4 text-center">
                     <div className="flex justify-center space-x-1">
                       <i className="ri-check-line text-green-500"></i>
@@ -218,8 +218,8 @@ export default function Home() {
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold text-gray-900">doda</td>
-                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">200,000件+</td>
-                  <td className="px-6 py-4 text-center">平均58.3%UP</td>
+                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">200,000件+※</td>
+                  <td className="px-6 py-4 text-center">平均58.3%アップ※</td>
                   <td className="px-6 py-4 text-center">
                     <div className="flex justify-center space-x-1">
                       <i className="ri-check-line text-green-500"></i>
@@ -235,8 +235,8 @@ export default function Home() {
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold text-gray-900">マイナビエージェント</td>
-                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">45,000件+</td>
-                  <td className="px-6 py-4 text-center">平均71.2%UP</td>
+                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">45,000件+※</td>
+                  <td className="px-6 py-4 text-center">平均71.2%アップ※</td>
                   <td className="px-6 py-4 text-center">
                     <div className="flex justify-center space-x-1">
                       <i className="ri-check-line text-green-500"></i>
@@ -252,8 +252,8 @@ export default function Home() {
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold text-gray-900">ビズリーチ</td>
-                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">127,000件+</td>
-                  <td className="px-6 py-4 text-center">平均85.4%UP</td>
+                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">127,000件+※</td>
+                  <td className="px-6 py-4 text-center">平均85.4%アップ※</td>
                   <td className="px-6 py-4 text-center">
                     <div className="flex justify-center space-x-1">
                       <i className="ri-check-line text-green-500"></i>
@@ -269,6 +269,9 @@ export default function Home() {
                 </tr>
               </tbody>
             </table>
+            <div className="mt-4 text-xs text-gray-500">
+              ※ 数値は各転職サービスの公表データまたは推定値です。実際の結果は個人により異なります。
+            </div>
           </div>
         </div>
       </section>
@@ -295,7 +298,7 @@ export default function Home() {
                     通る履歴書の書き方
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    採用担当者の目に留まる履歴書の構成と、職歷を魅力的に表現する方法を詳しく解説。
+                    採用担当者の目に留まる履歴書の構成と、職歴を魅力的に表現する方法を詳しく解説。
                   </p>
                   <div className="text-[#005BAC] font-medium">詳しく読む →</div>
                 </div>
@@ -420,7 +423,7 @@ export default function Home() {
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
               <h3 className="font-bold text-lg text-gray-900 mb-2">在職中でも転職活動はできますか？</h3>
               <p className="text-gray-600">
-                もちろん可能です。むしろ在職中の転職活動をおすすめします。収入が安定している状態で活動できるため、焦らずに理想の転職先を見つけることができます。面談は平日夜間や土日でも対応もしようございます。
+                もちろん可能です。むしろ在職中の転職活動をおすすめします。収入が安定している状態で活動できるため、焦らずに理想の転職先を見つけることができます。面談は平日夜間や土日でも対応可能です。
               </p>
             </div>
 
@@ -441,7 +444,7 @@ export default function Home() {
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
               <h3 className="font-bold text-lg text-gray-900 mb-2">年収アップは本当に可能ですか？</h3>
               <p className="text-gray-600">
-                はい、適切な戦略を立てることで年収アップは十分可能です。当サイト経由での転職成功者の平均年収アップ率は約65%です。スキルの棚卸しと市場価値の正確な把握が重要なポイントになります。
+                はい、適切な戦略を立てることで年収アップは十分可能です。当サイト経由での転職成功者の平均年収アップ率は約65%※です。スキルの棚卸しと市場価値の正確な把握が重要なポイントになります。
               </p>
             </div>
 

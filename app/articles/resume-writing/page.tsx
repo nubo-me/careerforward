@@ -2,10 +2,16 @@
 'use client';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function ResumeWritingPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Head>
+        <title>履歴書・職務経歴書の書き方 | CareerForward</title>
+        <meta name="description" content="採用担当者の目に留まる履歴書の構成と、職歴を魅力的に表現する方法を詳しく解説。30代〜40代ホワイトカラー向けの転職ノウハウをご紹介。" />
+      </Head>
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="w-full bg-white shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -176,7 +182,7 @@ export default function ResumeWritingPage() {
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
               <h4 className="font-bold text-blue-900 mb-3">IT業界からコンサルティング業界への転職例</h4>
               <p className="text-gray-700 text-sm leading-relaxed">
-                「御社の『テクノロジーで企業変革を支援する』というミッションに強く共感いたします。前职では5年間システムエンジニアとして従事し、クライアント企業のDX推進プロジェクトに携わってまいりました。特に製造業A社では、基幹システム刷新により業務効率30%向上を実現し、年間コスト削減効果2億円を達成いたしました。この経験で培ったテクノロジーの知見と課題解決力を活かし、御社でより幅広い企業の変革支援に貢献したいと考え、志望いたします。」
+                「御社の『テクノロジーで企業変革を支援する』というミッションに強く共感いたします。前職では5年間システムエンジニアとして従事し、クライアント企業のDX推進プロジェクトに携わってまいりました。特に製造業A社では、基幹システム刷新により業務効率30%向上を実現し、年間コスト削減効果2億円を達成いたしました。この経験で培ったテクノロジーの知見と課題解決力を活かし、御社でより幅広い企業の変革支援に貢献したいと考え、志望いたします。」
               </p>
             </div>
 
@@ -342,6 +348,7 @@ export default function ResumeWritingPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }
