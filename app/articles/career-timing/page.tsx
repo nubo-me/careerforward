@@ -509,7 +509,7 @@ export default function CareerTimingPage() {
           <div className="text-center">
             <div className="font-['Pacifico'] text-2xl text-[#FFB703] mb-4">CareerForward</div>
             <p className="text-gray-300 mb-4">
-              30代〜40代ホワイトカラーの転職を専門的にサポートする情報サイトです。
+              働くすべての人の転職・キャリア形成を支援する情報サイトです。
             </p>
             <div className="flex justify-center space-x-6 mb-8">
             </div>
