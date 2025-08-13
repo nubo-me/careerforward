@@ -12,7 +12,6 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="font-['Pacifico'] text-2xl text-[#005BAC]">CareerForward</Link>
             <nav className="hidden md:flex space-x-8">
-              <a href="#services" className="text-gray-700 hover:text-[#005BAC] font-medium">サービス</a>
               <a href="#success-stories" className="text-gray-700 hover:text-[#005BAC] font-medium">成功事例</a>
               <a href="#knowhow" className="text-gray-700 hover:text-[#005BAC] font-medium">転職ノウハウ</a>
               <a href="#faq" className="text-gray-700 hover:text-[#005BAC] font-medium">FAQ</a>
@@ -173,104 +172,6 @@ export default function Home() {
                 「異業種転職は不安でしたが、スキルの棚卸しから始めて、製造業での経験をITプロジェクト管理に活かせると発見。転職活動期間わずか2ヶ月で理想の企業に内定しました。」
               </blockquote>
               <div className="text-[#FFB703] font-bold">異業種転職成功</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Service Comparison */}
-      <section id="services" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">転職エージェント比較表</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              当サイトが厳選した主要転職エージェント4社の詳細比較です。
-            </p>
-          </div>
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-xl shadow-sm border border-gray-100">
-              <thead className="bg-[#005BAC] text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left font-semibold">エージェント名</th>
-                  <th className="px-6 py-4 text-center font-semibold">求人数</th>
-                  <th className="px-6 py-4 text-center font-semibold">年収アップ実績</th>
-                  <th className="px-6 py-4 text-center font-semibold">サポート範囲</th>
-                  <th className="px-6 py-4 text-center font-semibold">おすすめ度</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-100">
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold text-gray-900">リクルートエージェント</td>
-                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">320,000件+※</td>
-                  <td className="px-6 py-4 text-center">平均62.7%アップ※</td>
-                  <td className="px-6 py-4 text-center">
-                    <div className="flex justify-center space-x-1">
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                    </div>
-                  </td>
-                  <td className="px-6 py-4 text-center">
-                    <div className="text-yellow-400">★★★★★</div>
-                  </td>
-                </tr>
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold text-gray-900">doda</td>
-                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">200,000件+※</td>
-                  <td className="px-6 py-4 text-center">平均58.3%アップ※</td>
-                  <td className="px-6 py-4 text-center">
-                    <div className="flex justify-center space-x-1">
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-close-line text-gray-300"></i>
-                    </div>
-                  </td>
-                  <td className="px-6 py-4 text-center">
-                    <div className="text-yellow-400">★★★★☆</div>
-                  </td>
-                </tr>
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold text-gray-900">マイナビエージェント</td>
-                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">45,000件+※</td>
-                  <td className="px-6 py-4 text-center">平均71.2%アップ※</td>
-                  <td className="px-6 py-4 text-center">
-                    <div className="flex justify-center space-x-1">
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-close-line text-gray-300"></i>
-                      <i className="ri-close-line text-gray-300"></i>
-                    </div>
-                  </td>
-                  <td className="px-6 py-4 text-center">
-                    <div className="text-yellow-400">★★★★☆</div>
-                  </td>
-                </tr>
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold text-gray-900">ビズリーチ</td>
-                  <td className="px-6 py-4 text-center text-[#FFB703] font-bold">127,000件+※</td>
-                  <td className="px-6 py-4 text-center">平均85.4%アップ※</td>
-                  <td className="px-6 py-4 text-center">
-                    <div className="flex justify-center space-x-1">
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-check-line text-green-500"></i>
-                      <i className="ri-close-line text-gray-300"></i>
-                      <i className="ri-close-line text-gray-300"></i>
-                      <i className="ri-close-line text-gray-300"></i>
-                    </div>
-                  </td>
-                  <td className="px-6 py-4 text-center">
-                    <div className="text-yellow-400">★★★☆☆</div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div className="mt-4 text-xs text-gray-500">
-              ※ 数値は各転職サービスの公表データまたは推定値です。実際の結果は個人により異なります。
             </div>
           </div>
         </div>

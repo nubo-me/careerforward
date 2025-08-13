@@ -18,7 +18,6 @@ export default function InterviewPreparationPage() {
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="font-['Pacifico'] text-2xl text-[#005BAC]">CareerForward</Link>
             <nav className="hidden md:flex space-x-8">
-              <Link href="/#services" className="text-gray-700 hover:text-[#005BAC] font-medium">サービス</Link>
               <Link href="/#success-stories" className="text-gray-700 hover:text-[#005BAC] font-medium">成功事例</Link>
               <Link href="/#knowhow" className="text-gray-700 hover:text-[#005BAC] font-medium">転職ノウハウ</Link>
               <Link href="/#faq" className="text-gray-700 hover:text-[#005BAC] font-medium">FAQ</Link>
