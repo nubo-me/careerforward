@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://careerforward-aea32.web.app/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://careerforward-aea32.web.app/articles/career-timing</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://careerforward-aea32.web.app/articles/interview-preparation</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://careerforward-aea32.web.app/articles/job-search-strategy</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://careerforward-aea32.web.app/articles/market-value</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://careerforward-aea32.web.app/articles/resume-writing</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://careerforward-aea32.web.app/articles/salary-negotiation</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
