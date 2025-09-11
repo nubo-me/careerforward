@@ -35,6 +35,7 @@ export default function RootLayout({
       <head>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
   <meta name="google-site-verification" content="OZsbyrb_bv_IxzslODehf7AZLpWlQVfg8SV5EdiaP3U" />
+  <meta name="google-adsense-account" content="ca-pub-4321998223277477" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
